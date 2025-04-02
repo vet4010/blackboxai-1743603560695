@@ -1,0 +1,16 @@
+{
+  "name": "advanced-pack",
+  "version": "1.0.0",
+  "description": "EspoCRM Advanced Pack extension with PDF generation, task dependencies and document management",
+  "author": "Your Name",
+  "dependencies": {
+    "dompdf/dompdf": "^2.0.3",
+    "dropzone": "^5.9.3"
+  },
+  "espo": {
+    "version": "7.0.0",
+    "acceptableVersions": [">=7.0.0"],
+    "php": [">=7.4.0"],
+    "js": [">=es6"]
+  }
+}
